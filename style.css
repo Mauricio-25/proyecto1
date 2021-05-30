@@ -1,0 +1,39 @@
+/* VARIABLES */
+:root { 
+	--modoOscuroTexto: #ffffff;
+	--modoOscuroFondo: #505050;
+
+	--modoClaroTexto: #000000;
+	--modoClaroFondo: #ffffff;
+}
+
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	width: 100vw;
+	background-color: #226295;
+}
+
+header img {
+	height: 8vh;
+	margin: 1px;
+	float: left;
+	margin-right: 10vw;
+}
+
+header select {
+	border-radius: 5px;
+	padding: 3px;
+}
+
+main {
+	padding: 10px;
+
+	
+}
+
+.texto {
+	color: var(--modoClaroTexto);
+	background-color: var(--modoClaroFondo);
+}
